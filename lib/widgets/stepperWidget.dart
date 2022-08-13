@@ -9,6 +9,17 @@ class StepperWidget extends StatefulWidget {
 
 class _StepperWidgetState extends State<StepperWidget> {
 
+  //
+  //
+  // ContentView.Flutter
+  // Stepper Widget
+  //
+  // Created by: Faiz Rhm
+
+  // Mark: Github
+  // Faiz Rhm
+  // https://github.com/Faiz-rhm
+
   int  _currentStepper = 0;
 
   _stepTapped(int step){
