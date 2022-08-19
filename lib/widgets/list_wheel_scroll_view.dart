@@ -110,59 +110,50 @@ class _ListWheelScrollViewWidgetState extends State<ListWheelScrollViewWidget> {
               child: ListWheelScrollView(
                 itemExtent: MediaQuery.of(context).size.height * 0.6,
                 diameterRatio: 3.0,
-                onSelectedItemChanged: (int index) {
-                  setState(() {
-                    print('Selected item: $index');
-                  });
-                },
                 children: _listOfWatches.map((e) => Stack(
                   alignment: Alignment.topCenter,
                   children: [
-                     InkWell(
-                       child: Padding(
-                        padding: const EdgeInsets.only(top: 30.0),
-                        child: InkWell(
-                          child: Card(
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(16),
-                            ),
-                            color: e['color'],
-                            child: SizedBox(
-                              width: MediaQuery.of(context).size.width,
-                              height: MediaQuery.of(context).size.height * 0.5,
-                              child: Column(
-                                children:  [
-                                  const SizedBox(height: 230,),
-                                  Text(e['name'] + ' ' + e['year'],
-                                    style: const TextStyle(
-                                      fontSize: 24,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.white
-                                    ),
-                                  ),
-                                  const SizedBox(height: 8,),
-                                  Text(e['material'],
-                                    style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.grey.shade700
-                                    ),
-                                  ),
-                                  const SizedBox(height: 24,),
-                                  Text(e['price'],
-                                    style: TextStyle(
-                                      fontSize: 24,
-                                      fontWeight: FontWeight.bold,
-                                      color: Colors.brown.shade500
-                                    ),
-                                  ),
-                                ],
+                     Padding(
+                      padding: const EdgeInsets.only(top: 30.0),
+                      child: Card(
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                        color: e['color'],
+                        child: SizedBox(
+                          width: MediaQuery.of(context).size.width,
+                          height: MediaQuery.of(context).size.height * 0.5,
+                          child: Column(
+                            children:  [
+                              const SizedBox(height: 230,),
+                              Text(e['name'] + ' ' + e['year'],
+                                style: const TextStyle(
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white
+                                ),
                               ),
-                            ),
+                              const SizedBox(height: 8,),
+                              Text(e['material'],
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.grey.shade700
+                                ),
+                              ),
+                              const SizedBox(height: 24,),
+                              Text(e['price'],
+                                style: TextStyle(
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.brown.shade500
+                                ),
+                              ),
+                            ],
                           ),
                         ),
-                                         ),
-                     ),
+                      ),
+                                       ),
                     SizedBox(
                       height: 240,
                       child:  Image.asset(e['image']),
