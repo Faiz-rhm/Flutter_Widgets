@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/widgets/animated_list_widget.dart';
+import 'package:flutter_widgets/widgets/dismissible_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const AnimatedListWidget()
+      home: const DismissibleWidget()
     );
   }
 }
