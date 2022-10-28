@@ -23,6 +23,18 @@ flutter run
 
 <img width="1080" alt="Screen Shot 2022-08-19 at 7 58 11 PM" src="https://user-images.githubusercontent.com/14290499/185654092-a577ed5c-ce44-4683-8dc6-0a4dbd32c641.png">
 
+## Animatted List Widget
+
+<img width="1080" alt="Screen Shot 2022-10-28 at 6 14 23 PM" src="https://user-images.githubusercontent.com/14290499/198622137-bde90dd2-f568-4a34-9db1-d526a00dfc2a.png">
+
+<img width="1080" alt="Screen Shot 2022-10-28 at 6 15 30 PM" src="https://user-images.githubusercontent.com/14290499/198622262-a7d2027f-66e5-486e-8e17-82928e92d3a5.png">
+
+## Dimissible Widget
+
+<img width="1080" alt="Screen Shot 2022-10-28 at 6 16 06 PM" src="https://user-images.githubusercontent.com/14290499/198621922-cc646594-c14a-4ece-b574-91e765bb1a60.png">
+
+<img width="1080" alt="Screen Shot 2022-10-28 at 6 16 12 PM" src="https://user-images.githubusercontent.com/14290499/198621976-57da6835-0376-4416-be84-26359acb26f2.png">
+
 
 ## Pull Requests
 
